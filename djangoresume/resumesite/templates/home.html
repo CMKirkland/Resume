@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Name -- Resume</title>
+<!--
+This is a comment. Comments are not displayed in the browser
+&nbsp; ==> 1 unbreakable space character
+&ensp; ==> 2 spaces
+&emsp; ==> 4 spaces
+-->
+
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Resume of Caitlyn Kirkland."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Caitlyn Kirkland" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Caitlyn Kirkland</h1>
+			<h2 class="quickFade delayThree">Resume</h2>
+<h3 class="quickFade delayFour"><a href="{% url 'cover_letter' %}" target="_blank">Read my cover letter</a></h3>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+		<ul>
+                <li>Email:&emsp;&emsp;<a href="mailto:[caitlynkirkland799@gmail.com]" target="_blank">  caitlynkirkland799@gmail.com</a></li>
+		<li>Phone:&emsp;&ensp;&nbsp;(812) 207-7626</li>
+                <li>Address:&emsp;1809 Oakdale Ave.
+                    <br> &emsp;&emsp;&emsp;&emsp;&emsp;Georgetown, 47122</li>
+		<li>Website: &emsp;<a href="https://[insert domain name here]">www.Imnotthatfancybro.com</a></li>
+		</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Summary</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>I am currently enrolled in Floyd Central as a senior. I plan to graduate with the ICC and Academic Honors diploma. My goal is to get accepted into Purdue to become a civil engineer or possibly explore more of the architectural field. </p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+                    			<li>Hard-working</li>
+					<li>Intelligent </li>
+                    			<li>Creative</li>
+					<li>Leader</li>
+					
+					
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Cashier, Cashsaver</h2>
+					<p class="subDetails">Georegtown, IN</p>
+					<p class="subDetails">[October 20, 2022] - Present</p>
+                    <ul class="bullet">
+                        <li>I work on truck most times when on break.</li>
+                        <li>I'm one of the chasiers thats worked there the longest.</li>
+                        <li>Almost positive they plan to make me a manager as soon as I turn 18.</li>
+                       
+                    </ul>
+				</article>
+                
+                
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>University</h2>
+					<p class="subDetails">Fall 2024</p>
+					<p>Civil Engineer, Summer 2027</p>
+				</article>
+				
+
+            </div>
+			<div class="clear"></div>
+		</section>
+        
+		<section>
+            <div class="sectionTitle">
+                <h1>References</h1>
+            </div>
+            <div class="sectionContent">
+                <article>
+                    <h2>Dan Wavle</h2>
+                        <ul class="list">
+                            <li>Computer Science Teacher </li>
+                            <li>New Albany Floyd County Schools </li>
+                            <!--
+                            <li>557 Renz Avenue 
+                                <br> Sellersburg, Indiana 47172</li>
+                            -->
+                            <li>DWavles@nafcs.org </li>
+                            <li>502-850-8311 <br> &emsp; </li>
+                            <p>He was my computer science teacher for two years.</p>
+                        </ul>
+                </article>
+                
+            </div>
+            <div class="clear"></div>
+        </section>
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
